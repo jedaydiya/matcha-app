@@ -7,8 +7,8 @@ export default function Header() {
         <Container>
           <div className="relative flex h-16 w-full items-center justify-between px-4 sm:px-6 lg:px-8">
             <div className="flex items-center">
-              <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-                Matcha
+              <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-4xl">
+                hiraya
               </h1>
             </div>
             <nav className="mx-6 flex items-center space-x-4">

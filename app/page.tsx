@@ -11,12 +11,16 @@ import {
 import Header from "../components/header"
 import HeroSection from "@/components/hero-section";
 import Features from "@/components/features";
+import Subscription from "@/components/subscriptions";
+import Footer from "@/components/footer";
 export default function Home() {
   return (
     <>
       <Header></Header>
       <HeroSection></HeroSection>
       <Features></Features>
+      <Subscription></Subscription>
+      <Footer></Footer>
     </>
   );
 }

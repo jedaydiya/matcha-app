@@ -10,11 +10,13 @@ import {
 } from "@/components/ui/card";
 import Header from "../components/header"
 import HeroSection from "@/components/hero-section";
+import Features from "@/components/features";
 export default function Home() {
   return (
     <>
       <Header></Header>
       <HeroSection></HeroSection>
+      <Features></Features>
     </>
   );
 }

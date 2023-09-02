@@ -10,16 +10,16 @@ export default function HeroSection() {
               The Best
             </h1>
             <h1 className="mt-2 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-              Matcha In Town
+              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Matcha</span> In Town
             </h1>
-            <p className="mt-4 leading-7">
+            <h3 className="mt-10 scroll-m-20 text-2xl tracking-tight">
               Discover matcha perfection at Matcha, where every sip unveils
               Japan's rich tea tradition in every enchanting drop
-            </p>
-            <p className="leading-7">
+            </h3>
+            <h3 className="mt-2 scroll-m-20 text-2xl tracking-tight">
               Elevate your senses with our signature matcha creations today!
-            </p>
-            <div className="mt-4 flex gap-2">
+            </h3>
+            <div className="mt-10 flex gap-2">
               <Button size="lg">Get Started</Button>
               <Button variant="secondary" size="lg">
                 Why Pick Us ?

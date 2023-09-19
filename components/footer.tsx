@@ -11,7 +11,7 @@ export default function Footer() {
                 Discover matcha perfection
               </p>
               <p className="mt-2 text-lg font-semibold text-white">
-                © 2010 — 2020
+                © 2023
               </p>
               <p className="mt-2 text-lg font-semibold text-white">
                 Privacy - Terms

@@ -16,67 +16,81 @@ export default function Subscription() {
           Plans & Pricing
         </h2>
         <p className="mt-4 text-center text-lg">
-          {" "}
           Explore our plans and find the one that adds flavor to your life.
         </p>
 
         <div className="mt-10 grid grid-cols-3 gap-4">
           <Card className="text-center">
             <CardHeader>
-              <CardTitle>
-                <p className="text-3xl">Matcha Explorer</p>
+              <CardTitle className="text-3xl pt-8">
+                Matcha Explorer
               </CardTitle>
-              <CardDescription>
-                <p className="text-xl">Discover New Flavors Monthly</p>
+              <CardDescription className="text-xl">
+                Discover New Flavors Monthly
+              </CardDescription>
+              <CardDescription className="text-2xl text-black font-semibold mt-4">
+                $19.99/month
               </CardDescription>
             </CardHeader>
-            <CardContent>
-              <p>One 30g tin of premium matcha every month.</p>
-              <p>Access to exclusive new flavor releases.</p>
-              <p>Recipe suggestions and recommendations</p>
+            <CardContent className="mt-2">
+              <p className="mt-2">One 30g tin of premium matcha</p>
+              <p className="mt-2">Access to exclusive new flavor releases.</p>
+              <p className="mt-2">Recipe suggestions and recommendations</p>
             </CardContent>
-            <CardFooter className="justify-center"><Button>Start Now</Button></CardFooter>
+            <CardFooter className="justify-center"><Button className="mt-8">Get Started</Button></CardFooter>
           </Card>
 
           <Card className="bg-secondary text-center">
             <CardHeader>
-              <CardTitle>
-                <p className="text-3xl">Matcha Enthusiast</p>
+              <CardTitle className="text-3xl pt-8">
+                Matcha Enthusiast
               </CardTitle>
-              <CardDescription>
-                <p className="text-xl">Elevate your Matcha Ritual</p>
+              <CardDescription className="text-xl">
+                Elevate your Matcha Ritual
+              </CardDescription>
+              <CardDescription className="text-2xl text-black font-semibold mt-4">
+                $34.99/month
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p>
-                Two 30g tins of premium matcha, tailored to your preferences.
+              <p className="mt-2">
+                Two 30g tins of premium matcha.
               </p>
-              <p>Access to exclusive new flavor releases.</p>
-              <p>Recipe suggestions and recommendations</p>
+              <p className="mt-2">Monthly surprise matcha-related treats.</p>
+              <p className="mt-2">Early access to limited edition products.</p>
+              <p className="mt-2">Recipe book with creative matcha recipes.</p>
             </CardContent>
             <CardFooter className="justify-center">
-              <Button>Start Now</Button>
+              <Button>Get Started</Button>
             </CardFooter>
           </Card>
 
+
           <Card className="text-center">
             <CardHeader>
-              <CardTitle>
-                <p className="text-3xl">Matcha Explorer</p>
+              <CardTitle className="text-3xl pt-8 ">
+                Matcha Connoisseur
               </CardTitle>
-              <CardDescription>
-                <p className="text-xl">Discover New Flavors Monthly</p>
+              <CardDescription className="text-xl">
+                Sip Sustainably and Explore Depth
+              </CardDescription>
+              <CardDescription className="text-2xl text-black font-semibold mt-4">
+                $59.99/month
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p>One 30g tin of premium matcha every month.</p>
-              <p>Access to exclusive new flavor releases.</p>
-              <p>Recipe suggestions and recommendations</p>
+              <p className="mt-2">Three 30g tins of premium matcha</p>
+              <p className="mt-2">Quarterly Deluxe matcha-themed gift box</p>
+              <p className="mt-2">VIP access to virtual events and workshops</p>
+              <p className="mt-2">Personalized consultation with an expert.</p>
+
             </CardContent>
             <CardFooter className="justify-center">
-              <Button>Start Now</Button>
+              <Button>Get Started</Button>
             </CardFooter>
           </Card>
+
+
         </div>
       </section>
     </>

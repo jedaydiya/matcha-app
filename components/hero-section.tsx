@@ -17,7 +17,7 @@ export default function HeroSection() {
             </h1>
             <h3 className="mt-10 scroll-m-20 text-lg tracking-tight lg:text-2xl">
               Discover matcha perfection at Matcha, where every sip unveils
-              Japan's rich tea tradition in every enchanting drop
+              Japan&apos;s rich tea tradition in every enchanting drop
             </h3>
             <h3 className="mt-2 scroll-m-20 text-lg tracking-tight md:text-2xl">
               Elevate your senses with our signature matcha creations today!

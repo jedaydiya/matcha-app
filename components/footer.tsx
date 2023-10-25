@@ -34,7 +34,7 @@ export default function Footer() {
 
             <div>
               <p className="text-md py-2 font-semibold text-gray-300 md:text-lg">
-                LET'S CONNECT
+                LET&apos;S CONNECT
               </p>
               <p className="text-base font-semibold text-white md:text-lg">
                 Github
@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
           <Separator className="mt-4 md:mt-8" />
           <p className="md:text-md mt-4 text-sm font-semibold text-secondary md:mt-10">
-            Feedback? Suggestions Features you'd like to see? Contact Me
+            Feedback? Suggestions Features you&apos;d like to see? Contact Me
           </p>
           <p className="md:text-md mt-2 text-sm font-semibold text-secondary">
             Made with luv by jedaydiya

@@ -26,7 +26,7 @@ export default function FAQs() {
             <AccordionContent className="mt-4 text-base md:text-xl">
               Our matcha subscription is designed for your convenience. Simply
               choose your preferred matcha plan, select your delivery frequency,
-              and complete your order. You'll receive freshly sourced matcha
+              and complete your order. You&apos;ll receive freshly sourced matcha
               delivered to your doorstep as per your chosen schedule.
             </AccordionContent>
           </AccordionItem>
@@ -41,7 +41,7 @@ export default function FAQs() {
             <AccordionContent className="mt-4 text-base md:text-xl">
               Matcha deliveries typically occur within 3-7 business days from
               the date of your order. However, delivery times may vary depending
-              on your location. Rest assured, we'll keep you informed with
+              on your location. Rest assured, we&apos;ll keep you informed with
               tracking details.
             </AccordionContent>
           </AccordionItem>
@@ -56,7 +56,7 @@ export default function FAQs() {
             <AccordionContent className="mt-4 text-base md:text-xl">
               Matcha deliveries typically occur within 3-7 business days from
               the date of your order. However, delivery times may vary depending
-              on your location. Rest assured, we'll keep you informed with
+              on your location. Rest assured, we&apos;ll keep you informed with
               tracking details.
             </AccordionContent>
           </AccordionItem>
@@ -87,7 +87,7 @@ export default function FAQs() {
               We strive to ensure the quality of every matcha delivery. In the
               rare event that your order is damaged or incorrect, please contact
               our customer support team within 7 days of receiving your package,
-              and we'll promptly resolve the issue.
+              and we&apos;ll promptly resolve the issue.
             </AccordionContent>
           </AccordionItem>
 
@@ -156,7 +156,7 @@ export default function FAQs() {
             </AccordionTrigger>
             <AccordionContent className="mt-4 text-base md:text-xl">
               For any further inquiries or assistance, please feel free to
-              contact our customer support team at hirayamatcha@gmail.com. We're
+              contact our customer support team at hirayamatcha@gmail.com. We&apos;re
               here to help you with your matcha journey!
             </AccordionContent>
           </AccordionItem>

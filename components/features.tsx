@@ -65,7 +65,7 @@ export default function Features() {
             </CardHeader>
             <CardFooter>
               <p className="text-md mt-4 md:mt-12 md:text-xl">
-                You're not just choosing premium matcha; you're choosing
+                You&apos;re not just choosing premium matcha; you&apos;re choosing
                 sustainability.
               </p>
             </CardFooter>

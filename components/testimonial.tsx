@@ -40,11 +40,11 @@ export default function Testimonial() {
             </CardHeader>
             <CardContent>
               <blockquote className="text-base md:mt-2 md:text-xl">
-                &quot;I&apos;ve been a matcha enthusiast for years, and this subscription
-                has taken my love for matcha to the next level! The quality and
-                freshness of the matcha I receive are unmatched. I look forward
-                to my monthly matcha deliveries like a kid waiting for
-                Christmas!&quot;
+                &quot;I&apos;ve been a matcha enthusiast for years, and this
+                subscription has taken my love for matcha to the next level! The
+                quality and freshness of the matcha I receive are unmatched. I
+                look forward to my monthly matcha deliveries like a kid waiting
+                for Christmas!&quot;
               </blockquote>
             </CardContent>
           </Card>
@@ -70,11 +70,11 @@ export default function Testimonial() {
             </CardHeader>
             <CardContent>
               <blockquote className="text-base md:mt-2 md:text-xl">
-                &quot;I&apos&ve tried matcha from various sources, but none can compare to
-                the purity and flavor of the matcha from this subscription.
-                What's even better is the flexibility – I can adjust my
-                deliveries to suit my consumption. This subscription is a
-                game-changer!&quot;
+                &quot;I&apos&ve tried matcha from various sources, but none can
+                compare to the purity and flavor of the matcha from this
+                subscription. What&apos;s even better is the flexibility – I can
+                adjust my deliveries to suit my consumption. This subscription
+                is a game-changer!&quot;
               </blockquote>
             </CardContent>
           </Card>
@@ -100,9 +100,9 @@ export default function Testimonial() {
             </CardHeader>
             <CardContent>
               <blockquote className="text-base md:mt-2 md:text-xl">
-                &quot;As someone new to matcha, I was a bit overwhelmed at first.
-                However, this subscription made it easy to get started. The
-                website is user-friendly, and the support team patiently
+                &quot;As someone new to matcha, I was a bit overwhelmed at
+                first. However, this subscription made it easy to get started.
+                The website is user-friendly, and the support team patiently
                 answered all my questions. Now, I can&apos;t imagine my mornings
                 without a soothing cup of matcha.&quot;
               </blockquote>

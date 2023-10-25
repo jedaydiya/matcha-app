@@ -1,16 +1,7 @@
 "use client";
 import Container from "../components/container";
 import { Button } from "@/components/ui/button";
-import { MenuSquare, X } from "lucide-react";
-import {
-  NavigationMenuList,
-  NavigationMenu,
-  NavigationMenuLink,
-  navigationMenuTriggerStyle,
-  NavigationMenuItem,
-} from "./ui/navigation-menu";
 import { useState } from "react";
-import Nav from "./nav";
 import Link from "next/link";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);

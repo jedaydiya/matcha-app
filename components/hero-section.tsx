@@ -7,11 +7,11 @@ export default function HeroSection() {
         <main className="lg-px-8 mx-auto grid w-full max-w-7xl grid-cols-1 gap-4 px-4 sm:grid-cols-2 sm:px-6">
           <div className="mt-20">
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-              The Best&nbsp;
+              The Best
             </h1>
             <h1 className="mt-2 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Matcha
+                Matcha&nbsp;
               </span>
               In Town
             </h1>

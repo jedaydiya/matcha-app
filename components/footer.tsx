@@ -18,32 +18,40 @@ export default function Footer() {
               </p>
             </div>
             <div>
-              <p className="py-2 text-md font-semibold text-gray-300 md:text-lg">
+              <p className="text-md py-2 font-semibold text-gray-300 md:text-lg">
                 EXPLORE
               </p>
               <p className="text-base font-semibold text-white md:text-lg">
                 Features
               </p>
-              <p className="mt-2 text-base md:text-lg font-semibold text-white">
+              <p className="mt-2 text-base font-semibold text-white md:text-lg">
                 Testimonials
               </p>
-              <p className="mt-2 text-base md:text-lg font-semibold text-white">Contacts</p>
+              <p className="mt-2 text-base font-semibold text-white md:text-lg">
+                Contacts
+              </p>
             </div>
 
             <div>
-              <p className="py-2 text-md md:text-lg font-semibold text-gray-300">
+              <p className="text-md py-2 font-semibold text-gray-300 md:text-lg">
                 LET'S CONNECT
               </p>
-              <p className="text-base md:text-lg font-semibold text-white">Github</p>
-              <p className="mt-2 text-base md:text-lg font-semibold text-white">Twitter</p>
-              <p className="mt-2 text-base md:text-lg font-semibold text-white">Instagram</p>
+              <p className="text-base font-semibold text-white md:text-lg">
+                Github
+              </p>
+              <p className="mt-2 text-base font-semibold text-white md:text-lg">
+                Twitter
+              </p>
+              <p className="mt-2 text-base font-semibold text-white md:text-lg">
+                Instagram
+              </p>
             </div>
           </div>
           <Separator className="mt-4 md:mt-8" />
-          <p className="text-sm md:text-md mt-4 md:mt-10 font-semibold text-secondary">
+          <p className="md:text-md mt-4 text-sm font-semibold text-secondary md:mt-10">
             Feedback? Suggestions Features you'd like to see? Contact Me
           </p>
-          <p className="text-sm md:text-md mt-2 font-semibold text-secondary">
+          <p className="md:text-md mt-2 text-sm font-semibold text-secondary">
             Made with luv by jedaydiya
           </p>
         </div>

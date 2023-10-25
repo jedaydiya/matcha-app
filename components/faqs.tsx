@@ -9,7 +9,7 @@ export default function FAQs() {
   return (
     <>
       <div className="mx-auto mt-20 w-full max-w-7xl px-4 py-3">
-        <p className="text-center text-4xl md:text-5xl font-extrabold">FAQ</p>
+        <p className="text-center text-4xl font-extrabold md:text-5xl">FAQ</p>
         <p className="mt-4 text-center text-xl">
           Explore our frequently asked questions to find answers to common
           queries.
@@ -101,7 +101,7 @@ export default function FAQs() {
             <AccordionContent className="mt-4 text-base md:text-xl">
               Yes, you can cancel your subscription at any time without any
               cancellation fees. We believe in flexibility and are here to
-              accommodate your preferences.{" "}
+              accommodate your preferences.
             </AccordionContent>
           </AccordionItem>
 

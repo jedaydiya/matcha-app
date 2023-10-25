@@ -12,17 +12,21 @@ import {
 export default function Contact() {
   return (
     <>
-      <div className="mx-auto w-full max-w-7xl px-4 py-3 mt-10">
-        <p className="text-3xl font-semibold text-center">Subscribe to our Newsletter</p>
-        <p className="text-xl mt-4 text-center">Receive the latest news, events, and special offers directly in your inbox.</p>
-        <div className="flexjustify-center">
-          <div className=" bg-card rounded-md mt-8 w-1/3 p-8 mx-auto">
+      <div id="contacts " className="mx-auto mt-20 w-full max-w-7xl px-4 py-3">
+        <p className="text-center text-4xl md:text-5xl font-extrabold">
+          Subscribe to our <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            Newsletter
+          </span>
+        </p>
+        <p className="mt-4 text-center text-xl">
+          Receive the latest news, events, and special offers directly in your
+          inbox.
+        </p>
 
-            <Input type="email" placeholder="Email" />
-            <div className=" flex justify-center">
-              <Button size="lg" className="mt-8">Subscribe</Button>
-            </div>
-          </div>
+        <div className=" flex justify-center">
+          <Button size="lg" className="mt-8">
+            Stay Tuned
+          </Button>
         </div>
       </div>
     </>

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 export default function HeroSection() {
   return (
     <>
-      <div className="mt-10 px-4 py-3">
+      <div className="mt-8 md:mt-10 px-4 py-3">
         <main className="lg-px-8 mx-auto grid w-full max-w-7xl grid-cols-1 gap-4 px-4 sm:grid-cols-2 sm:px-6">
           <div className="mt-20">
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
@@ -12,11 +12,11 @@ export default function HeroSection() {
             <h1 className="mt-2 scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Matcha</span> In Town
             </h1>
-            <h3 className="mt-10 scroll-m-20 text-2xl tracking-tight">
+            <h3 className="mt-10 scroll-m-20 text-lg lg:text-2xl tracking-tight">
               Discover matcha perfection at Matcha, where every sip unveils
               Japan's rich tea tradition in every enchanting drop
             </h3>
-            <h3 className="mt-2 scroll-m-20 text-2xl tracking-tight">
+            <h3 className="mt-2 scroll-m-20 text-lg md:text-2xl tracking-tight">
               Elevate your senses with our signature matcha creations today!
             </h3>
             <div className="mt-10 flex gap-2">
@@ -27,8 +27,8 @@ export default function HeroSection() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-            <div className="relative row-span-2 h-full overflow-hidden rounded-lg border border-black">
+          <div className="grid md:grid-cols-2 gap-2">
+            <div className="relative md:row-span-2 h-60 md:h-full overflow-hidden rounded-lg border border-black">
               <Image
                 className="rounded-lg "
                 src="/hero-image2.jpg"

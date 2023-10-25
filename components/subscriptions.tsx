@@ -11,24 +11,24 @@ import { Button } from "@/components/ui/button";
 export default function Subscription() {
   return (
     <>
-      <section className="mx-auto mt-20 w-full max-w-7xl px-4 py-3">
-        <h2 className=" scroll-m-20 text-center text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+      <section id="pricing" className="mx-auto mt-20 w-full max-w-7xl px-4 py-3">
+        <h2 className=" scroll-m-20 text-center text-4xl md:text-5xl font-extrabold tracking-tight transition-colors first:mt-0">
           Plans & Pricing
         </h2>
         <p className="mt-4 text-center text-lg">
           Explore our plans and find the one that adds flavor to your life.
         </p>
 
-        <div className="mt-10 grid grid-cols-3 gap-4">
+        <div className="mt-10 grid md:grid-cols-3 gap-4">
           <Card className="text-center">
             <CardHeader>
-              <CardTitle className="text-3xl pt-8">
+              <CardTitle className="text-2xl md:text-3xl pt-8">
                 Matcha Explorer
               </CardTitle>
-              <CardDescription className="text-xl">
+              <CardDescription className="text-lg md:text-xl">
                 Discover New Flavors Monthly
               </CardDescription>
-              <CardDescription className="text-2xl text-black font-semibold mt-4">
+              <CardDescription className="text-xl md:text-2xl text-black font-semibold mt-4">
                 $19.99/month
               </CardDescription>
             </CardHeader>
@@ -42,13 +42,13 @@ export default function Subscription() {
 
           <Card className="bg-secondary text-center">
             <CardHeader>
-              <CardTitle className="text-3xl pt-8">
+              <CardTitle className="text-2xl md:text-3xl pt-8">
                 Matcha Enthusiast
               </CardTitle>
-              <CardDescription className="text-xl">
+              <CardDescription className="text-lg md:text-xl">
                 Elevate your Matcha Ritual
               </CardDescription>
-              <CardDescription className="text-2xl text-black font-semibold mt-4">
+              <CardDescription className="text-xl md:text-2xl text-black font-semibold mt-4">
                 $34.99/month
               </CardDescription>
             </CardHeader>
@@ -68,13 +68,13 @@ export default function Subscription() {
 
           <Card className="text-center">
             <CardHeader>
-              <CardTitle className="text-3xl pt-8 ">
+              <CardTitle className="text-2xl md:text-3xl pt-8 ">
                 Matcha Connoisseur
               </CardTitle>
-              <CardDescription className="text-xl">
+              <CardDescription className="text-lg md:text-xl">
                 Sip Sustainably and Explore Depth
               </CardDescription>
-              <CardDescription className="text-2xl text-black font-semibold mt-4">
+              <CardDescription className="text-xl md:text-2xl text-black font-semibold mt-4">
                 $59.99/month
               </CardDescription>
             </CardHeader>

@@ -10,13 +10,15 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 export default function Testimonial() {
   return (
     <>
-      <div className="mx-auto w-full max-w-7xl px-4 py-3">
-        <p className="mt-4 text-center text-3xl font-semibold">Testimonial</p>
+      <div id="testimonials" className="mx-auto w-full max-w-7xl px-4 py-3">
+        <p className="mt-10 text-center text-4xl font-extrabold md:text-5xl">
+          Testimonials
+        </p>
         <p className="mt-4 text-center text-xl">
           What people are saying about us.
         </p>
 
-        <div className="mt-12 grid grid-cols-3 gap-4">
+        <div className="mt-12 grid gap-4 md:grid-cols-3">
           <Card>
             <CardHeader className="text-center">
               <div className="flex justify-center gap-4">
@@ -27,15 +29,17 @@ export default function Testimonial() {
                   </AvatarFallback>
                 </Avatar>
                 <div>
-                  <CardTitle className="mt-2 text-3xl">Mary H.</CardTitle>
-                  <CardDescription className="text-xl">
+                  <CardTitle className="mt-2  text-xl md:text-3xl">
+                    Mary H.
+                  </CardTitle>
+                  <CardDescription className=" text-md md:text-xl">
                     Matcha Lover
                   </CardDescription>
                 </div>
               </div>
             </CardHeader>
             <CardContent>
-              <blockquote className="mt-2 text-xl italic">
+              <blockquote className="text-base md:mt-2 md:text-xl">
                 "I've been a matcha enthusiast for years, and this subscription
                 has taken my love for matcha to the next level! The quality and
                 freshness of the matcha I receive are unmatched. I look forward
@@ -55,20 +59,22 @@ export default function Testimonial() {
                   </AvatarFallback>
                 </Avatar>
                 <div>
-                  <CardTitle className="mt-2 text-3xl">Michael R.</CardTitle>
-                  <CardDescription className="text-xl">
+                  <CardTitle className="mt-2 text-xl md:text-3xl">
+                    Michael R.
+                  </CardTitle>
+                  <CardDescription className=" text-md md:text-xl">
                     Matcha Connoisseur
                   </CardDescription>
                 </div>
               </div>
             </CardHeader>
             <CardContent>
-              <blockquote className="mt-2 text-xl italic">
+              <blockquote className="text-base md:mt-2 md:text-xl">
                 "I've tried matcha from various sources, but none can compare to
                 the purity and flavor of the matcha from this subscription.
                 What's even better is the flexibility – I can adjust my
                 deliveries to suit my consumption. This subscription is a
-                game-changer!"{" "}
+                game-changer!""
               </blockquote>
             </CardContent>
           </Card>
@@ -83,15 +89,17 @@ export default function Testimonial() {
                   </AvatarFallback>
                 </Avatar>
                 <div>
-                  <CardTitle className="mt-2 text-3xl">Emily S.</CardTitle>
-                  <CardDescription className="text-xl">
+                  <CardTitle className="mt-2 text-xl md:text-3xl">
+                    Emily S.
+                  </CardTitle>
+                  <CardDescription className="text-md md:text-xl">
                     Matcha Novice
                   </CardDescription>
                 </div>
               </div>
             </CardHeader>
             <CardContent>
-              <blockquote className="mt-2 text-xl italic">
+              <blockquote className="text-base md:mt-2 md:text-xl">
                 "As someone new to matcha, I was a bit overwhelmed at first.
                 However, this subscription made it easy to get started. The
                 website is user-friendly, and the support team patiently
